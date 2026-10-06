@@ -1,0 +1,17 @@
+[Unit]
+Description=Axelar Amplifier daemon (ampd)
+After=syslog.target network-online.target axelar-tofnd.service
+Wants=axelar-tofnd.service
+
+[Service]
+Type=simple
+User=axelar
+
+Restart=on-failure
+RestartSec=5
+
+WorkingDirectory=/home/axelar
+ExecStart=/usr/bin/ampd
+
+[Install]
+WantedBy=multi-user.target

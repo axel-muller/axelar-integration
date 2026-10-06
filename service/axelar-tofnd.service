@@ -1,0 +1,16 @@
+[Unit]
+Description=Axelar Tofnd Service
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=axelar
+
+Restart=on-failure
+RestartSec=5
+
+EnvironmentFile=/etc/axelar/tofnd.env
+ExecStart=/bin/sh -c 'echo "$KEYRING_PASSWORD" | /usr/bin/tofnd -m existing -d /home/axelar/.tofnd'
+
+[Install]
+WantedBy=multi-user.target

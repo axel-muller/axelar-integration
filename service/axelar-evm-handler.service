@@ -1,0 +1,19 @@
+[Unit]
+Description=Axelar EVM handler
+After=syslog.target network-online.target axelar-ampd.service
+Wants=axelar-ampd.service
+
+[Service]
+Type=simple
+User=axelar
+
+Restart=on-failure
+RestartSec=5
+
+Environment="AXELAR_EVM_HANDLER_CONFIG_DIR=/home/axelar/.ampd/dmd-diamond/"
+WorkingDirectory=/home/axelar
+
+ExecStart=/usr/bin/axelar-evm-handler --config-dir $AXELAR_EVM_HANDLER_CONFIG_DIR
+
+[Install]
+WantedBy=multi-user.target
