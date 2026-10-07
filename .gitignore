@@ -1,4 +1,19 @@
 .idea/
+.vscode/
 
 .mnemonic
 .env
+
+# Build artifacts
+out/
+cache/
+broadcast/
+**/artifacts/
+**/artifacts/**
+
+deps/
+states/
+
+# Debug info
+*.dbg.json
+*.tsbuildinfo
