@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity 0.8.33;
 
 import {Script} from "forge-std/Script.sol";
@@ -7,7 +7,7 @@ import {console} from "forge-std/console.sol";
 import {DMDTestReceiver} from "../src/DMDTestReceiver.sol";
 import {DMDTestSender} from "../src/DMDTestSender.sol";
 
-contract DeployTestSender is Script {
+contract DeployAll is Script {
     mapping(uint256 => address) public gateways;
 
     function setUp() public {
