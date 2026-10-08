@@ -23,7 +23,7 @@ fs_permissions = [{ access = "read", path = "./out" }]
 
 [rpc_endpoints]
 dmd_mainnet = "https://rpc.bit.diamonds"
-op_sepolia = "https://api.zan.top/opt-sepolia"
+avalanche_fuji = "https://api.avax-test.network/ext/bc/C/rpc"
 
 [etherscan]
 dmd_mainnet = { key = "123", url = "https://explorer.bit.diamonds/api" }

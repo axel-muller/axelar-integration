@@ -8,5 +8,5 @@ Receiver: [`0x4d7F2335D74F74e2838f5a495e2F8B7A2D1d1C02`](https://explorer.bit.di
 
 ### Avalanche Fuji
 
-Sender:   [`0xE0B23dA1a923b79B623Ddd9bB3E4Fc7EDA6569FC`](https://testnet.snowscan.xyz/address/0xE0B23dA1a923b79B623Ddd9bB3E4Fc7EDA6569FC#code)  
-Receiver: [`0xCb540A4Db7a94CA3f7F28a97d41388493Ad85127`](https://testnet.snowscan.xyz/address/0xCb540A4Db7a94CA3f7F28a97d41388493Ad85127#code)
+Sender:   [`0x8Bf94EF59dB2c6b2cAb3306e039d0F53F9c4EAe8`](https://testnet.snowscan.xyz/address/0x8Bf94EF59dB2c6b2cAb3306e039d0F53F9c4EAe8#code)  
+Receiver: [`0x9669Ab94290a980791ae35734ED3dA2a5eB1d388`](https://testnet.snowscan.xyz/address/0x9669Ab94290a980791ae35734ED3dA2a5eB1d388#code)

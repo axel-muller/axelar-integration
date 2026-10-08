@@ -12,7 +12,7 @@ contract DeployAll is Script {
 
     function setUp() public {
         gateways[17771] = 0xAE64f45A541AaFc223B3D61D23e0F5c464438C16; // DMD Diamond
-        gateways[43113] = 0xb7879887ec7e85a5C757D7ccF5E3AB15007152e2; // Avalanche Fuji
+        gateways[43113] = 0xF128c84c3326727c3e155168daAa4C0156B87AD1; // Avalanche Fuji
     }
 
     function run() public {

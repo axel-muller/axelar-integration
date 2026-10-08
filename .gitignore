@@ -17,3 +17,8 @@ states/
 # Debug info
 *.dbg.json
 *.tsbuildinfo
+
+**/target/
+state.json
+relayer.env
+config.toml
